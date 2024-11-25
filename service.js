@@ -36,7 +36,7 @@ app.post('/send-email', async (req, res) => {
         // Define mail options for primary and default emails
     const primaryMailOptions = {
         from: 'infogoedu360@gmail.com',
-        to: toEmail,
+        to: "infogoedu360@gmail.com",
         subject: subject,
         text: text,
     };
